@@ -6,7 +6,7 @@ function App() {
   return (
     <div className="App container-fluid">
       <div className = "row appRow">
-        <div className = "col-8 readmeContainer">
+        <div className = "col-xl-8 col-lg-8 col-md-12 readmeContainer">
           <div className = "textContainer">
             <h1 className = "readMeHeader">React Calculator</h1>
             <p>This is a calculator component I made to practice React. This is a part of a larger project I'm working on, but I decided to split it off into its own thing because I think that other people could find some use in it.</p>
@@ -22,7 +22,7 @@ function App() {
             <p>If you want to use this in your own project, download the components file found in the GitHub and then use it's respective tag. This component uses Bootstrap styling</p>
           </div>         
         </div>
-        <div className = "calculatorContainer col-4">
+        <div className = "calculatorContainer col-xl-4 col-lg-4 col-sm-6 col-10">
           <h1 className = "calcText">Working Model :)</h1>
           <Calculator />
         </div>

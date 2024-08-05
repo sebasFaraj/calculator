@@ -10,14 +10,22 @@
   padding: 0;
 }
 
+body {
+  height: 100%;
+  background-color: rgb(10, 16, 83);
+  padding: 10px;
+}
+
 .App {
   text-align: center;
-  height: 100vh;
-  background-color: rgb(10, 16, 83);
+  height: 100%;
 }
 
 .appRow {
-  height: 99%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .readmeContainer {
@@ -116,3 +124,20 @@ p {
   font-family: "Inter", "Open Sans";
   font-weight: 700;
 }
+
+
+
+
+@media (max-width: 500px) {
+  :root{
+    font-size: 10px;
+  }
+}
+
+@media (max-width: 990px){
+  .readmeContainer{
+    border-right: none;
+    border-bottom: 5px solid rgb(209, 209, 209);
+  }
+}
+
